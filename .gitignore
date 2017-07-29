@@ -10,11 +10,10 @@ target/
 .springBeans
 
 ### IntelliJ IDEA ###
-.idea
+
 *.iws
 *.iml
 *.ipr
-.webapp_with_stripe.iml
 
 ### NetBeans ###
 nbproject/private/
@@ -25,8 +24,5 @@ nbdist/
 .nb-gradle/
 
 
-.mvn/
-mvnw
-mvnw.cmd
-pom.xml
-src/
+.idea
+web_app_with_stripe.iml
