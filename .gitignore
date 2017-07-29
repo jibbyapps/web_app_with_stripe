@@ -26,3 +26,4 @@ nbdist/
 
 .idea
 web_app_with_stripe.iml
+.mvn/
