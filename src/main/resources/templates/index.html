@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
-<!--<head th:replace="common/header :: common-header"/>
--->
+<head th:replace="common/header :: common-header"></head>
+
+
 <body>
 
-<!--<div th:replace="common/navbar :: common-navbar" />
--->
+<!-- <div th:replace="common/navbar :: common-navbar" xmlns:th="http://www.w3.org/1999/xhtml"></div> -->
+
+<div th:replace="common/navbar :: common-navbar">f</div>
+
 <div class="container">
 
     <div class="starter-template">
@@ -21,8 +24,9 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 
-<!--<div th:replace="common/header :: before-body-scripts"/>
--->
+<div th:replace="common/header :: before-body-scripts"></div>
+
+<!-- <div th:replace="common/header :: before-body-scripts" xmlns:th="http://www.w3.org/1999/xhtml"></div> -->
 
 </body>
 </html>
