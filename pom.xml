@@ -81,6 +81,12 @@
 			<version>1.5.4.RELEASE</version>
 		</dependency>
 
+		<!-- Logging Dependencies -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+		</dependency>
+
 
 
 
