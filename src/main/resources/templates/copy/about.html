@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="common/header :: common-header"></head>
+<body>
+
+<div th:replace="common/navbar :: common-navbar"></div>
+
+<!-- Main Jumbotron
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <h1 class="text-center" th:text="#{copy.h1.text}"></h1>
+                <p class="lead" th:text="#{copy.p.lead}"></p>
+            </div>
+        </div>
+    </div>
+
+</div><!-- ./container -->
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4 span4">
+            <a href="#">
+                <img class="img-circle"
+                     src="https://lh3.googleusercontent.com/gfS15xuST6IP3e-ZDy63XLNl-ZxxTqo-NxXuIy5dKWQIjX_8s_T0Sz1mgTc0-78juBc=w170"
+                     alt="#" width="140" height="140" />
+            </a>
+            <h2>Vitalii Romanchenko <small class="member-title">Project Lead</small></h2>
+            <div class="span4 collapse-group">
+                <p class="collapse text-justify" th:text="#{copy.project.lead.intro}"></p>
+                <p><a class="btn btn-primary btn-collapse" href="#" role="button" th:text="#{copy.viewdetails.button}"></a></p>
+            </div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 span4">
+            <a href="#">
+                <img class="img-circle"
+                     src="http://i2.cdn.turner.com/nba/nba/history/legends/john-stockton/john-stockton.jpg"
+                     alt="#" width="140" height="140" />
+            </a>
+            <h2>John Stockton <small class="member-title">Nba Star</small></h2>
+            <div class="span4 collapse-group">
+                <p class="collapse text-justify" th:text="#{copy.project.lead.intro}"></p>
+                <p><a class="btn btn-primary btn-collapse" href="#" role="button" th:text="#{copy.viewdetails.button}"></a></p>
+            </div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 span4" >
+            <a href="#">
+                <img class="img-circle"
+                     src="http://www.gestornoticias.com/archivos2/religionenlibertad.com/image/kobe_bryant.jpg"
+                     alt="#" width="140" height="140" />
+            </a>
+            <h2>Kobe Bryant <small class="member-title">5 times Nba Champion</small></h2>
+            <div class="span4 collapse-group">
+                <p class="collapse text-justify" th:text="#{copy.project.lead.intro}"></p>
+                <p><a class="btn btn-primary btn-collapse" href="#" role="button" th:text="#{copy.viewdetails.button}"></a></p>
+            </div>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider" />
+
+    <div class="featurette">
+        <img class="featurette-image pull-right" th:src="@{/images/we1.jpg}" />
+        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="featurette">
+        <img class="featurette-image pull-left" th:src="@{/images/qw1.jpg}" />
+        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="featurette">
+        <img class="featurette-image pull-right" th:src="@{/images/photo1.jpg}" />
+        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <!-- /END THE FEATURETTES -->
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2016 s.com &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+</div><!-- /.container -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<div th:replace="common/header :: before-body-scripts"></div>
+
+</body>
+</html>
